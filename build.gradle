@@ -33,4 +33,7 @@ repositories {
 dependencies {
     compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.0.47'
     compile group: 'org.springframework', name: 'spring-webmvc', version: '5.0.1.RELEASE'
+    // --- one more dependency : JSON (Javascript Object Notation)
+    // ... Tomcat 8 and Spring 5 dependencies
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.2'
 }
