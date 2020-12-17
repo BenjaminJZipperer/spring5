@@ -14,7 +14,8 @@ import javax.servlet.ServletRegistration;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = {"com.auth0.samples"})
-public class SpringAppConfig implements WebApplicationInitializer {
+public class SpringAppConfig implements WebApplicationInitializer
+{
 
     @Override
     public void onStartup(ServletContext container) {
